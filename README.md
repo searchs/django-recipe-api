@@ -4,6 +4,7 @@
 docker-compose run --rm app sh -c "django-admin startproject app ."
 
 
+
 docker-compose run --rm app sh -c "python manage.py collectstatic"
 
 #Replace wirh Ruff [ruff check --fix]
