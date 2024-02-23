@@ -1,6 +1,6 @@
-def add(x,y):
+def add(x, y):
     return x + y
 
 
-def subtract(a,b):
+def subtract(a, b):
     return b - a
