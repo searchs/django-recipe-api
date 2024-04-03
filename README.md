@@ -1,6 +1,8 @@
 # django-recipe-api
 
 ```bash
+# Admin
+
 docker-compose run --rm app sh -c "django-admin startproject app ."
 
 
@@ -16,6 +18,12 @@ docker-compose run --rm app sh -c "flake8"
 # Testing
 docker-compose run --rm app sh -c "python manage.py test"
 
+
+# admin@admin.com test123
+docker-compose run --rm app sh -c "python manage.py createsuperuser"
+
+
+docker-compose run --rm app sh -c "python manage.py startapp xxxr"
 
 
 ```
